@@ -1,0 +1,29 @@
+{
+  "name": "ant-vue-from",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.0.6",
+    "canvas": "^2.9.3",
+    "fabric": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "konva": "^8.3.10",
+    "sass": "^1.52.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/fabric": "^4.5.8",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "babel-plugin-import": "^1.13.5",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
